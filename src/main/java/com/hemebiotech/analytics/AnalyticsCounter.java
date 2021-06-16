@@ -28,7 +28,6 @@ public class AnalyticsCounter {
 			try {
 				List<String> list = readSymptomDataFromFile.GetSymptoms();
 				Set<String> distint = new TreeSet<>(list);
-
 				for (String s : distint) {
 			writer.write(s + ": " + Collections.frequency(list, s) + " \n");
 					
