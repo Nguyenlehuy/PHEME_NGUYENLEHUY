@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class WriteSyntomDataToFile {
+public class WriteSymptomDataToFile {
 
 	public void write(String fileNameInput, String fileNameOutput) {
 		ReadSymptomDataFromFile readSymptomDataFromFile = new ReadSymptomDataFromFile(fileNameInput);

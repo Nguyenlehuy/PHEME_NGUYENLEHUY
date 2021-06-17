@@ -4,7 +4,7 @@ public class AnalyticsCounter {
 
 	public static void main(String args[]) throws Exception {
 		
-		WriteSyntomDataToFile writeSyntomDataToFile = new WriteSyntomDataToFile();
+		WriteSymptomDataToFile writeSyntomDataToFile = new WriteSymptomDataToFile();
 		writeSyntomDataToFile.write("symptoms.txt", "result.out");
 		writeSyntomDataToFile.afficherResultat("result.out");
 
